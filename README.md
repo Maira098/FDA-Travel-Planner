@@ -1,8 +1,6 @@
-Personalized Travel Planner
-Federated Data Aggregator (FDA)
-NAMES: SANA TARIQ (058), MAIRA MALIK (040)
-SUBMITTED TO: SIR SHEHZAD
-1. Problem Statement
+# Personalized Travel Planner
+**Federated Data Aggregator (FDA)**
+***1. Problem Statement***
 
 Modern applications often rely on multiple external services (APIs) to function effectively.
 This project solves the problem of fragmented external data by implementing a Federated Data Aggregator (FDA).
@@ -15,7 +13,7 @@ Weather data (current conditions)
 
 into a single, coherent result.
 
-2 . What the Application Does
+***2 . What the Application Does***
 
 Given:
 
@@ -35,13 +33,13 @@ Presents the aggregated travel information in a single output.
 
 This demonstrates federated data retrieval, transformation, and integration.
 
-3 . APIs Used
+***3 . APIs Used***
 
 OpenCage Geocoding API – Converts city names into latitude and longitude.
 
 OpenWeatherMap API – Provides current weather data based on coordinates.
 
-4 . Installation Instructions
+***4 . Installation Instructions***
 Step 1: Clone or extract the project
 cd fda-travel-planner
 Step 2: (Optional) Create a virtual environment
@@ -64,7 +62,7 @@ OPENWEATHER_API_KEY=your_openweathermap_api_key
 OPENCAGE_API_KEY=your_opencage_api_key
 
 
-6 . How to Run the Application
+***6 . How to Run the Application***
 
 From the project root directory:
 
@@ -82,7 +80,7 @@ Weather information for the destination
 
 Distance between the two cities
 
-7 . Project Structure
+***7 . Project Structure***
 fda-travel-planner/
 │
 ├── clients/
@@ -96,7 +94,7 @@ fda-travel-planner/
 ├── README.md
 ├── .env.example
 └── .gitignore
-8 . Notes
+***8 . Notes***
 
 The application follows object-oriented design principles.
 
@@ -109,4 +107,5 @@ Logging is implemented to track successful operations and errors.
 9 . Disclaimer
 
 This project was developed for educational purposes as part of an open-ended laboratory assignment.
+
 All APIs are used in accordance with their free-tier usage policies.
